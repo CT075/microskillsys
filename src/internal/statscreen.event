@@ -1,0 +1,7 @@
+#include "statscreen.lyn.event"
+
+PUSH
+// adj down pointer for the res stat bar
+ORG 0xA00C54
+POIN sHelpInfo_Skill0
+POP

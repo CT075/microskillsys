@@ -1,0 +1,16 @@
+#define AegisIconId 0
+#define AirRaidIconId 1
+#define AirSuperiorityIconId 2
+#define AllForOneIconId 3
+#define CharmEirIconId 4
+#define CharmEphIconId 5
+#define CovertIconId 6
+#define NoGuardIconId 7
+#define PerfectGuardIconId 8
+#define PierceIconId 9
+#define RecklessIconId 10
+#define RevengerIconId 11
+#define ShootDownIconId 12
+#define SlayerIconId 13
+#define SmiteIconId 14
+#define TrampleIconId 15

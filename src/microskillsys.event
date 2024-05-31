@@ -1,0 +1,9 @@
+#include "internal/buffs.lyn.event"
+#include "internal/battle.lyn.event"
+
+#ifndef NO_MICROSKILLSYS_STATSCREEN
+#include "internal/statscreen.event"
+#endif
+
+#include "skills/main.event"
+#include "frontend.lyn.event"

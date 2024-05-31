@@ -1,0 +1,18 @@
+// This is split into a separate file so I can have a script easily append to
+// it without having to worry about munging manual edits
+
+#include "Nihil/Nihil.lyn.event"
+#include "ShootDown/ShootDown.lyn.event"
+#include "Smite/Smite.lyn.event"
+#include "PerfectGuard/PerfectGuard.lyn.event"
+#include "Reckless/Reckless.lyn.event"
+#include "NoGuard/NoGuard.lyn.event"
+#include "Trample/Trample.lyn.event"
+#include "Pierce/Pierce.lyn.event"
+#include "AirSuperiority/AirSuperiority.lyn.event"
+#include "Aegis/Aegis.lyn.event"
+#include "CharmEir/CharmEir.lyn.event"
+#include "CharmEph/CharmEph.lyn.event"
+#include "Revenger/Revenger.lyn.event"
+#include "Covert/Covert.lyn.event"
+#include "AirRaid/AirRaid.lyn.event"

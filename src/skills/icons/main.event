@@ -1,0 +1,4 @@
+ALIGN 4
+SkillIconTileGraphic:
+#include installer.event
+MESSAGE Skill icon tile graphic at SkillIconTileGraphic
