@@ -1,5 +1,7 @@
 ![microskillsys exists because cam needed it](microskillsys.png)
 
+(thanks to Black Mage for the perfect summary of how this project came to be!)
+
 ## What is this?
 
 **microskillsys** is an alternative skill system implementation for FE8. It was
