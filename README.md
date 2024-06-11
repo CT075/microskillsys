@@ -38,6 +38,11 @@ the case, please file a bug report!).
 
 ## Why *shouldn't* I use microskillsys?
 
+At the time of this writing, microskillsys is **feature incomplete**. While
+full feature parity with SkillSystem is explicitly a non-goal of this project,
+there are still many missing holes and hooks (for example, I have not yet worked
+out a design for skill-based movement buffs).
+
 - You are a beginner to FE8 engine hacking and intend to use many of the features
   or skills included with the default SkillSystem 1.x.
 - You have an existing project using SkillSystem 1.x. There is no easy process
@@ -46,3 +51,47 @@ the case, please file a bug report!).
   as Nihil (from Radiant Dawn) or Rightful King (from Awakening). Due to the
   self-contained design of the skill interface (as opposed to SkillSystem's
   calc loops), implementing such skills is unwieldy but not impossible.
+- Currently, microskillsys makes aggressive use of allocating and passing
+  intermediate structs on the stack. These structs are relatively small and
+  have short lifetimes, but it is possible that it will run into issues
+  when combined with other stack-intensive modules.
+
+Finally, this project is, at least for the moment, entirely developed and
+maintained by me (Camdar). This means that, unlike the larger and
+better-supported projects, microskillsys is going to be a lot slower to address
+issues and resolve bugs. If this is a deal-breaker, you should look elsewhere.
+
+## How can I use this in my project?
+
+There are a few different modes, all of which are documented in
+[quickstart.md](doc/quickstart.md).
+
+## How can I contribute to this project?
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Known bugs
+
+This list is and will be inconsistently updated. For the most up-to-date info,
+see the [issue tracker](https://github.com/CT075/microskillsys/issues).
+
+- Opening the R-info window and pressing down with no skills or pressing right
+  to move the info window off the rightmost skill will cause the info bubble
+  to re-display itself rather than doing nothing.
+
+## Technical details
+
+Start with [HACKING.md](HACKING.md) and follow the related documentation links.
+
+## Misc. FAQ
+
+### How should I abbreviate this project?
+
+- The canonical rendering of the name of this project is `microskillsys` or
+  `μskillsys` (that is a greek letter mu), in all lowercase. This suggests a
+  few different possible abbreviations:
+
+  - mss
+  - μss
+  - uss
+  - muss (mu-skillsystem, so mu-ss)
