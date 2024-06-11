@@ -61,7 +61,7 @@ maintained by me (Camdar). This means that, unlike the larger and
 better-supported projects, microskillsys is going to be a lot slower to address
 issues and resolve bugs. If this is a deal-breaker, you should look elsewhere.
 
-## How can I use this in my project?
+## How can I use microskillsys in my project?
 
 There are a few different modes, all of which are documented in
 [quickstart.md](doc/quickstart.md).
@@ -85,7 +85,7 @@ Start with [HACKING.md](HACKING.md) and follow the related documentation links.
 
 ## Misc. FAQ
 
-### How should I abbreviate this project?
+### What is the correct abbreviation for this project?
 
 - The canonical rendering of the name of this project is `microskillsys` or
   `μskillsys` (that is a greek letter mu), in all lowercase. This suggests a
@@ -95,3 +95,11 @@ Start with [HACKING.md](HACKING.md) and follow the related documentation links.
   - μss
   - uss
   - muss (mu-skillsystem, so mu-ss)
+
+  Feel free to use any of these, or any other zany one like BONEWALKER-SWORD
+  that tickles your fancy.
+
+### Why does this project exist over improving one of the existing skill systems?
+
+- Aside from the differing design goals, I thought it would be a good exercise
+  to write a skill system from scratch, and microskillsys is the result.
