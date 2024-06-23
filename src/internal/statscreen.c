@@ -6,12 +6,8 @@
 #include "icon.h"
 #include "statscreen.h"
 
-#include "constants.h"
 #include "microskillsys/constants.h"
 #include "microskillsys/frontend.h"
-#include "microskillsys/skills.h"
-
-#include "ram_structures.h"
 
 #define gUiTmScratchA ((u16 *)UI_SCRATCH_A_ADDR)
 
